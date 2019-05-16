@@ -9,6 +9,12 @@ The final dataset `injury` is formatted such that each row is an injury occurenc
 
 The data used to create the final dataset is also included: `People` (and the edited `people1`), `master` from Crunchtime Baseball, and `sp_injury` from scraped Spotrac.com.
 
+Not sure where to begin? Possibly analyses could include:
+
+- Creating a time-to-event variable and performing Survival Analysis/Cox PH
+- Running a Logistic Regression to predict injury
+- Visualize differences in injury prevalance / type across positions
+
 This data combines information from the Lahman dataset, IDs from Crunchtime Baseball, and injury information from Spotrac.com.
 The individual datasets from both the Lahman set and Crunchtime Baseballas well as the Spotrac individual team injury information can be found at the links below.
 
