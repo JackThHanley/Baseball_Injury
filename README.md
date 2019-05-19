@@ -3,7 +3,7 @@
 
 ### Incomplete
 
-Over the course of my own personal baseball research experience, I've found a significant dearth of injury information. Any information out there also isn't particularly easy to work with. This repository hopes to serve as a brief synthesization of biographical, website ID, and injury information from 2015 onwards. I intend to update this every few months or so. 
+Over the course of my own personal baseball research experience, I've found a significant dearth of injury information. Any information out there also isn't particularly easy to work with. This repository hopes to serve as a brief synthesization of biographical, website ID, and injury information from 2015 onwards. The injuries included on this list are ones suffered by players on the big-league roster; there is information on injuries suffered by players in amateur/minor league baseball. I intend to update this information every few months or so. 
 
 The final dataset `injury` is formatted such that each row is an injury occurence. Players may show up multiple times (multiple injuries over).
 
