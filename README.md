@@ -19,15 +19,12 @@ This data combines information from the Lahman dataset, IDs from Crunchtime Base
 The individual datasets from both the Lahman set and Crunchtime Baseballas well as the Spotrac individual team injury information can be found at the links below.
 
 
-- Lahman website: http://www.seanlahman.com/baseball-archive/statistics/
+#### Lahman website: http://www.seanlahman.com/baseball-archive/statistics/
+  - You can find the `People` dataset here within the Lahman database downloads
+  - Lahman Creative License: https://creativecommons.org/licenses/by-sa/3.0/
 
-  -> You can find the `People` dataset here within the Lahman database downloads
-  -> Lahman Creative License: https://creativecommons.org/licenses/by-sa/3.0/
+#### Crunchtime Baseball: http://crunchtimebaseball.com/baseball_map.html
+  - `master` dataset for player IDs and criterion for inclusion can be found at this site
 
-- Crunchtime Baseball: http://crunchtimebaseball.com/baseball_map.html
-
-  -> `master` dataset for player IDs and criterion for inclusion can be found at this site
-
-- Spotrac: https://www.spotrac.com/mlb/disabled-list/2018/cumulative-team/
-
-  -> Injury information can been found here.
+#### Spotrac: https://www.spotrac.com/mlb/disabled-list/2018/cumulative-team/
+  - Injury information can been found here.
