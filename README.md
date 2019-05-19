@@ -3,11 +3,11 @@
 
 ### Incomplete
 
-This repository is a brief synthesization of biographical, website ID, and injury information from Injury information is from 2015 onwards. I intend to update this every few months or so. 
+Over the course of my own personal baseball research experience, I've found a significant dearth of injury information. Any information out there also isn't particularly easy to work with. This repository hopes to serve as a brief synthesization of biographical, website ID, and injury information from 2015 onwards. I intend to update this every few months or so. 
 
 The final dataset `injury` is formatted such that each row is an injury occurence. Players may show up multiple times (multiple injuries over).
 
-The data used to create the final dataset is also included: `People` (and the edited `people1`), `master` from Crunchtime Baseball, and `sp_injury` from scraped Spotrac.com.
+The data used to create the final dataset is also included: `People` (and the edited `people1`), `master` from Crunchtime Baseball, and `sp_injury` from scraped Spotrac.com using the functions in the script provided
 
 Not sure where to begin? Possibly analyses could include:
 
@@ -20,9 +20,11 @@ The individual datasets from both the Lahman set and Crunchtime Baseballas well 
 
 
 Lahman website: http://www.seanlahman.com/baseball-archive/statistics/
-
-Lahman Creative License: https://creativecommons.org/licenses/by-sa/3.0/
+  - You can find the `People` dataset here within the Lahman database downloads
+  - Lahman Creative License: https://creativecommons.org/licenses/by-sa/3.0/
 
 Crunchtime Baseball: http://crunchtimebaseball.com/baseball_map.html
+  - `master` dataset for player IDs and criterion for inclusion can be found at this site
 
 Spotrac: https://www.spotrac.com/mlb/disabled-list/2018/cumulative-team/
+  - Injury information can been found here.
