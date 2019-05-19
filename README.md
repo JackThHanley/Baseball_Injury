@@ -7,7 +7,7 @@ Over the course of my own personal baseball research experience, I've found a si
 
 The final dataset `injury` is formatted such that each row is an injury occurence. Players may show up multiple times (multiple injuries over).
 
-The data used to create the final dataset is also included: `People` (and the edited `people1`), `master` from Crunchtime Baseball, and `sp_injury` from scraped Spotrac.com using the functions in the script provided
+The data used to create the final dataset: `People` (removed certain columns, eventualy used edited `people1`), `master` from Crunchtime Baseball, and `sp_injury` (created from scraped Spotrac.com using the functions in the script provided).
 
 Not sure where to begin? Possibly analyses could include:
 
