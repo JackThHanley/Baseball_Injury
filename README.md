@@ -49,4 +49,4 @@ All of the websites and resources I am accessing are tremendous resources and ar
   
  ## Contact
  
- If you have any questions or concerns, feel free to contact my at jackthhanley@gmail.com
+ If you have any questions or concerns, feel free to contact me at jackthhanley@gmail.com
