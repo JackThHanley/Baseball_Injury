@@ -9,7 +9,7 @@ An example final dataset that you can create using the script is included in the
 ## Issues / Other Info
 As of now, though, there are several aspects to keep in mind. For starters, players may show up multiple times (multiple injuries over the course of one season). Additionnally, there currently is an error where injuries will be double counted if a player was traded midseason.
 
-Also included at the end of the script is the code necessary to synthesize and combine your dataframes, as well as export your dataframes to CSV files. These sections are commented out, and are included with the intention of a user changing them.
+Also included at the end of the script is the code necessary to synthesize and combine your dataframes, as well as export your dataframes to CSV files. These sections are commented out, and are included with the intention of a user changing them. On my machine, I tend to run the script in an IPython shell in Visual Studio code.
 
 Data necessary to run script:
 - `People`, `people1` from the Lahman dataset (`people1` is `People` with some columns removed... both are included)
@@ -32,6 +32,8 @@ Not sure where to begin? Possibly analyses could include:
 - Running a Logistic Regression to predict injury
 - Visualize differences in injury prevalance / type across positions
 
+## Resources
+
 All of the websites and resources I am accessing are tremendous resources and are worth exploring on their own. The individual datasets from both the Lahman set and Crunchtime Baseball as well as the Spotrac individual team injury information can be found at the links below.
 
 
@@ -44,3 +46,7 @@ All of the websites and resources I am accessing are tremendous resources and ar
 
 #### Spotrac: https://www.spotrac.com/mlb/disabled-list/2019/cumulative-team/
   - Injury information can been found here.
+  
+ ## Contact
+ 
+ If you have any questions or concerns, feel free to contact my at jackthhanley@gmail.com
