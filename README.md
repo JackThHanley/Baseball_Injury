@@ -20,6 +20,7 @@ Data necessary to run script:
   + Reference dataframe for full team names and their abbreviations
   
 ## Downstream Goals
+  - Improve speed of scraper
   - Latent updating of `master`, `People`
   - Fixing double-counting error
   - Repeated updating of scraping Spotrac
