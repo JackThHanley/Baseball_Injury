@@ -3,7 +3,7 @@
 import pandas as pd
 import numpy as np
 
-"""Data Input"""
+# Data Input
 master = pd.read_csv('master.csv', header=0, encoding='latin-1') 
 people = pd.read_csv('people1.csv', header = 0, encoding='latin-1')
 
@@ -26,7 +26,7 @@ with open('teams.csv', mode='r') as infile:
 
 
 
-
+# Tools to access Spotrac, store information
 from collections import defaultdict as dd
 import requests
 from bs4 import BeautifulSoup
@@ -61,6 +61,8 @@ def get_injury_page(year, team):
 
 """ Takes soup, scrapes information and returns dataframe"""
 
+
+# Lets us work with datetime objects regarding time spent on IL
 from datetime import date
 from datetime import datetime
 
@@ -100,7 +102,7 @@ def get_pl_injury_info(soup):
 
             time_on_IL = info_chunk[5].getText() # Still a character string
 
-            cash_on_IL = info_chunk[6].getText() #Get rid of $ and commas maybe?
+            cash_on_IL = info_chunk[6].getText() # Get rid of $ and commas maybe?
 
 
             # Get date info
@@ -183,7 +185,7 @@ master_df = pd.merge(master_df, newdf, on = 'mlb_name')
 """
 
 
-# Export files code
+''' Export files code '''
 
 # Export your injury data frame
 # export_csv = injury_df.to_csv(r"C:\Users\USERNAME&DIRECTORY\NAME_OFDF", index = None, header=True)
